@@ -1,0 +1,82 @@
+body {
+    background-image: url(images/parkbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* NAVBAR */
+.navbar-transparent {
+    background-color: transparent !important;
+    /* border-bottom: 1px solid #404040; Set border color to black (#000) */
+  }
+
+.navbar-brand img {
+    max-width: 80px; /* Adjust the size as needed */
+    height: auto;
+    display: inline-block;
+}
+
+.nav-link{
+    border: 1px solid #404040;
+}
+
+/* SPACER */
+.spacer {
+    height: 300px; /* Set the height of the spacer */
+}
+
+
+/* GALLERY */
+.custom-card {
+    margin-bottom: 15px;
+}
+
+.custom-card img {
+    height: 300px; /* Set a fixed height for the images */
+    width: 450px; /* Make sure images take the full width of the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 30px;
+}
+
+/* Map footer */
+.bottom{
+    background-color: #404040;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+
+.mapimg{
+    width: 200px;
+}
+
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.5em;
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+ .foothead{
+    font-size: small;
+ }
